@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Каталог мест — КультКарта</title>
+<meta name="description" content="Музеи, библиотеки, арт-пространства и клубы Москвы для студентов">
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%232A44D8'/%3E%3Ctext x='16' y='21' font-size='15' text-anchor='middle' fill='white' font-family='Arial' font-weight='700'%3EК%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Golos+Text:wght@400;500;600&family=PT+Mono&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+<a class="logo" href="index.html"><span>К</span>КультКарта</a>
+<nav aria-label="Разделы сайта"><a href="index.html">Главная</a><a href="catalog.html" aria-current="page">Каталог мест</a><a href="lichnost.html">Как это влияет на личность</a><a href="team.html">Команда</a></nav>
+</div></header>
+<main class="wrap">
+<section class="catalog">
+ <div class="cat-head">
+  <span class="eyebrow">Каталог мест</span>
+  <h1 style="font-size:clamp(26px,4vw,40px)">Куда пойти и&nbsp;чем заняться</h1>
+  <div class="filter" role="radiogroup" aria-label="Фильтр по категориям"><input type="radio" name="f" id="f-all" checked><label for="f-all">Все · 13</label><input type="radio" name="f" id="f-museum"><label for="f-museum" id="cat-museum"><i style="background:var(--c-museum)"></i>Музеи · 4</label><input type="radio" name="f" id="f-lib"><label for="f-lib" id="cat-lib"><i style="background:var(--c-lib)"></i>Библиотеки · 3</label><input type="radio" name="f" id="f-art"><label for="f-art" id="cat-art"><i style="background:var(--c-art)"></i>Арт-пространства · 4</label><input type="radio" name="f" id="f-club"><label for="f-club" id="cat-club"><i style="background:var(--c-club)"></i>Клубы и практики · 2</label></div>
+ </div>
+ <div class="grid">
+<article class="card c-museum" id="place-1">
+ <div class="photo"><span class="glyph">ГТГ</span><span class="ph">место для фото</span><img src="img/01.jpg" alt="" loading="lazy"><span class="num">1</span></div>
+ <div class="body">
+  <span class="tag">Музеи</span>
+  <h3>Третьяковская галерея</h3>
+  <div class="addr"><span>Лаврушинский пер., 10</span><span class="metro"><b>М</b>Третьяковская</span></div>
+  <p class="desc">Главное собрание русского искусства: от икон до живописи начала XX века. Помимо экспозиции проходят лекции и кинопоказы.</p>
+  <p class="why"><strong>Для личности:</strong> Знакомит с национальным культурным наследием и помогает понять, как искусство отражает историю общества.</p>
+  <p class="stud"><strong>Для студента:</strong> Льготный билет и бесплатные дни по студенческому. Расписание бесплатных дней — на сайте музея.</p>
+  <div class="links"><a href="https://www.tretyakovgallery.ru/" target="_blank" rel="noopener">Официальный сайт →</a><a href="https://2gis.ru/moscow/search/%D0%9B%D0%B0%D0%B2%D1%80%D1%83%D1%88%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BF%D0%B5%D1%80.%2C%2010" target="_blank" rel="noopener">На карте 2ГИС →</a></div>
+ </div>
+</article><article class="card c-museum" id="place-2">
+ <div class="photo"><span class="glyph">ГМИИ</span><span class="ph">место для фото</span><img src="img/02.jpg" alt="" loading="lazy"><span class="num">2</span></div>
+ <div class="body">
+  <span class="tag">Музеи</span>
+  <h3>ГМИИ им. А. С. Пушкина</h3>
+  <div class="addr"><span>ул. Волхонка, 12</span><span class="metro"><b>М</b>Кропоткинская</span></div>
+  <p class="desc">Музей мирового искусства: античные слепки, европейская живопись, импрессионисты. Проводит лекции и молодёжные программы.</p>
+  <p class="why"><strong>Для личности:</strong> Расширяет кругозор за пределы родной культуры и учит видеть связь эпох и стран.</p>
+  <p class="stud"><strong>Для студента:</strong> Для студентов российских вузов есть бесплатные дни, точные условия — на сайте музея.</p>
+  <div class="links"><a href="https://pushkinmuseum.art/" target="_blank" rel="noopener">Официальный сайт →</a><a href="https://2gis.ru/moscow/search/%D1%83%D0%BB.%20%D0%92%D0%BE%D0%BB%D1%85%D0%BE%D0%BD%D0%BA%D0%B0%2C%2012" target="_blank" rel="noopener">На карте 2ГИС →</a></div>
+ </div>
+</article><article class="card c-museum" id="place-3">
+ <div class="photo"><span class="glyph">ММ</span><span class="ph">место для фото</span><img src="img/03.jpg" alt="" loading="lazy"><span class="num">3</span></div>
+ <div class="body">
+  <span class="tag">Музеи</span>
+  <h3>Музей Москвы</h3>
+  <div class="addr"><span>Зубовский бульвар, 2</span><span class="metro"><b>М</b>Парк культуры</span></div>
+  <p class="desc">Музей истории города в бывших Провиантских складах: выставки о городе, лекции, книжный магазин и библиотека.</p>
+  <p class="why"><strong>Для личности:</strong> Помогает приезжему студенту узнать историю города, в котором он теперь живёт, и почувствовать себя его частью.</p>
+  <p class="stud"><strong>Для студента:</strong> Студентам очной формы — бесплатный вход на выставки и лекции (уточняйте на сайте).</p>
+  <div class="links"><a href="https://mosmuseum.ru/" target="_blank" rel="noopener">Официальный сайт →</a><a href="https://2gis.ru/moscow/search/%D0%97%D1%83%D0%B1%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80%2C%202" target="_blank" rel="noopener">На карте 2ГИС →</a></div>
+ </div>
+</article><article class="card c-museum" id="place-4">
+ <div class="photo"><span class="glyph">G</span><span class="ph">место для фото</span><img src="img/04.jpg" alt="" loading="lazy"><span class="num">4</span></div>
+ <div class="body">
+  <span class="tag">Музеи</span>
+  <h3>Музей «Гараж»</h3>
+  <div class="addr"><span>ул. Крымский Вал, 9, стр. 32</span><span class="metro"><b>М</b>Октябрьская</span></div>
+  <p class="desc">Музей современного искусства в Парке Горького: выставки, открытое хранение, лекции, книжный магазин и библиотека по искусству.</p>
+  <p class="why"><strong>Для личности:</strong> Учит понимать современную культуру и формулировать собственную позицию по отношению к ней.</p>
+  <p class="stud"><strong>Для студента:</strong> С 17 июня 2026 года вход в открытое хранение бесплатный для студентов любых вузов по студенческому или ISIC.</p>
+  <div class="links"><a href="https://garagemca.org/" target="_blank" rel="noopener">Официальный сайт →</a><a href="https://2gis.ru/moscow/search/%D1%83%D0%BB.%20%D0%9A%D1%80%D1%8B%D0%BC%D1%81%D0%BA%D0%B8%D0%B9%20%D0%92%D0%B0%D0%BB%2C%209%2C%20%D1%81%D1%82%D1%80.%2032" target="_blank" rel="noopener">На карте 2ГИС →</a></div>
+ </div>
+</article><article class="card c-lib" id="place-5">
+ <div class="photo"><span class="glyph">РГБ</span><span class="ph">место для фото</span><img src="img/05.jpg" alt="" loading="lazy"><span class="num">5</span></div>
+ <div class="body">
+  <span class="tag">Библиотеки</span>
+  <h3>Российская государственная библиотека</h3>
+  <div class="addr"><span>ул. Воздвиженка, 3/5</span><span class="metro"><b>М</b>Библиотека им. Ленина</span></div>
+  <p class="desc">«Ленинка» — крупнейшая библиотека страны. Читальные залы, редкие издания, электронные ресурсы, тихие места для учёбы.</p>
+  <p class="why"><strong>Для личности:</strong> Даёт доступ к знаниям и формирует привычку к самостоятельной исследовательской работе.</p>
+  <p class="stud"><strong>Для студента:</strong> Запись и читательский билет бесплатны, нужен паспорт.</p>
+  <div class="links"><a href="https://www.rsl.ru/" target="_blank" rel="noopener">Официальный сайт →</a><a href="https://2gis.ru/moscow/search/%D1%83%D0%BB.%20%D0%92%D0%BE%D0%B7%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%BA%D0%B0%2C%203/5" target="_blank" rel="noopener">На карте 2ГИС →</a></div>
+ </div>
+</article><article class="card c-lib" id="place-6">
+ <div class="photo"><span class="glyph">ВГБИЛ</span><span class="ph">место для фото</span><img src="img/06.jpg" alt="" loading="lazy"><span class="num">6</span></div>
+ <div class="body">
+  <span class="tag">Библиотеки</span>
+  <h3>Библиотека иностранной литературы</h3>
+  <div class="addr"><span>ул. Николоямская, 1</span><span class="metro"><b>М</b>Таганская</span></div>
+  <p class="desc">«Иностранка»: книги на десятках языков, бесплатные разговорные клубы, культурные центры разных стран, лекции.</p>
+  <p class="why"><strong>Для личности:</strong> Помогает выучить язык и познакомиться с другими культурами, а это основа межкультурного диалога.</p>
+  <p class="stud"><strong>Для студента:</strong> Запись бесплатная; разговорные клубы обычно бесплатны, расписание на сайте.</p>
+  <div class="links"><a href="https://libfl.ru/" target="_blank" rel="noopener">Официальный сайт →</a><a href="https://2gis.ru/moscow/search/%D1%83%D0%BB.%20%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%BE%D1%8F%D0%BC%D1%81%D0%BA%D0%B0%D1%8F%2C%201" target="_blank" rel="noopener">На карте 2ГИС →</a></div>
+ </div>
+</article><article class="card c-lib" id="place-7">
+ <div class="photo"><span class="glyph">ТУРГ</span><span class="ph">место для фото</span><img src="img/07.jpg" alt="" loading="lazy"><span class="num">7</span></div>
+ <div class="body">
+  <span class="tag">Библиотеки</span>
+  <h3>Библиотека-читальня им. И. С. Тургенева</h3>
+  <div class="addr"><span>Бобров пер., 6, стр. 1</span><span class="metro"><b>М</b>Чистые пруды</span></div>
+  <p class="desc">Одна из старейших публичных библиотек Москвы в историческом особняке: книжные клубы, лекции, концерты, места для работы.</p>
+  <p class="why"><strong>Для личности:</strong> Камерная среда для чтения и обсуждений, где легко найти своих по интересам.</p>
+  <p class="stud"><strong>Для студента:</strong> Вход и запись бесплатные, большинство мероприятий бесплатные по регистрации.</p>
+  <div class="links"><a href="https://2gis.ru/moscow/search/%D0%91%D0%BE%D0%B1%D1%80%D0%BE%D0%B2%20%D0%BF%D0%B5%D1%80.%2C%206%2C%20%D1%81%D1%82%D1%80.%201" target="_blank" rel="noopener">На карте 2ГИС →</a></div>
+ </div>
+</article><article class="card c-art" id="place-8">
+ <div class="photo"><span class="glyph">ГЭС-2</span><span class="ph">место для фото</span><img src="img/08.jpg" alt="" loading="lazy"><span class="num">8</span></div>
+ <div class="body">
+  <span class="tag">Арт-пространства</span>
+  <h3>Дом культуры «ГЭС-2»</h3>
+  <div class="addr"><span>Болотная наб., 15</span><span class="metro"><b>М</b>Кропоткинская</span></div>
+  <p class="desc">Бывшая электростанция, ставшая домом культуры: выставки, кинопоказы, библиотека, мастерские «Своды».</p>
+  <p class="why"><strong>Для личности:</strong> Пространство, где можно не только смотреть, но и пробовать самому: мастерские, лаборатории, открытые программы.</p>
+  <p class="stud"><strong>Для студента:</strong> Вход бесплатный, нужна регистрация на сайте. Ежедневно 11:00–22:00.</p>
+  <div class="links"><a href="https://ges-2.org/" target="_blank" rel="noopener">Официальный сайт →</a><a href="https://2gis.ru/moscow/search/%D0%91%D0%BE%D0%BB%D0%BE%D1%82%D0%BD%D0%B0%D1%8F%20%D0%BD%D0%B0%D0%B1.%2C%2015" target="_blank" rel="noopener">На карте 2ГИС →</a></div>
+ </div>
+</article><article class="card c-art" id="place-9">
+ <div class="photo"><span class="glyph">ВИН</span><span class="ph">место для фото</span><img src="img/09.jpg" alt="" loading="lazy"><span class="num">9</span></div>
+ <div class="body">
+  <span class="tag">Арт-пространства</span>
+  <h3>Центр современного искусства «Винзавод»</h3>
+  <div class="addr"><span>4-й Сыромятнический пер., 1/8</span><span class="metro"><b>М</b>Курская</span></div>
+  <p class="desc">Галереи, мастерские художников, «Открытые студии» для молодых авторов, магазины и события.</p>
+  <p class="why"><strong>Для личности:</strong> Показывает, как устроена профессиональная арт-среда, и даёт молодым авторам первую площадку.</p>
+  <p class="stud"><strong>Для студента:</strong> Вход на территорию и в большинство галерей бесплатный.</p>
+  <div class="links"><a href="https://winzavod.ru/" target="_blank" rel="noopener">Официальный сайт →</a><a href="https://2gis.ru/moscow/search/4-%D0%B9%20%D0%A1%D1%8B%D1%80%D0%BE%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BF%D0%B5%D1%80.%2C%201/8" target="_blank" rel="noopener">На карте 2ГИС →</a></div>
+ </div>
+</article><article class="card c-art" id="place-10">
+ <div class="photo"><span class="glyph">ФЛ</span><span class="ph">место для фото</span><img src="img/10.jpg" alt="" loading="lazy"><span class="num">10</span></div>
+ <div class="body">
+  <span class="tag">Арт-пространства</span>
+  <h3>Дизайн-завод «Флакон»</h3>
+  <div class="addr"><span>ул. Большая Новодмитровская, 36</span><span class="metro"><b>М</b>Дмитровская</span></div>
+  <p class="desc">Креативный кластер на месте бывшего стекольного завода: студии дизайнеров, маркеты, лекции, фестивали.</p>
+  <p class="why"><strong>Для личности:</strong> Знакомит с творческими профессиями и показывает, что культура может стать делом жизни.</p>
+  <p class="stud"><strong>Для студента:</strong> Вход на территорию свободный, большинство событий бесплатные.</p>
+  <div class="links"><a href="https://flacon.ru/" target="_blank" rel="noopener">Официальный сайт →</a><a href="https://2gis.ru/moscow/search/%D1%83%D0%BB.%20%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F%20%D0%9D%D0%BE%D0%B2%D0%BE%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F%2C%2036" target="_blank" rel="noopener">На карте 2ГИС →</a></div>
+ </div>
+</article><article class="card c-art" id="place-11">
+ <div class="photo"><span class="glyph">МУЗ</span><span class="ph">место для фото</span><img src="img/11.jpg" alt="" loading="lazy"><span class="num">11</span></div>
+ <div class="body">
+  <span class="tag">Арт-пространства</span>
+  <h3>Парк искусств «Музеон»</h3>
+  <div class="addr"><span>ул. Крымский Вал, 2</span><span class="metro"><b>М</b>Парк культуры</span></div>
+  <p class="desc">Парк скульптуры под открытым небом у Крымского моста: более тысячи скульптур, летние фестивали и лекции.</p>
+  <p class="why"><strong>Для личности:</strong> Свободная среда для прогулок с искусством, где культура становится частью повседневности.</p>
+  <p class="stud"><strong>Для студента:</strong> Вход бесплатный.</p>
+  <div class="links"><a href="https://muzeon.ru/" target="_blank" rel="noopener">Официальный сайт →</a><a href="https://2gis.ru/moscow/search/%D1%83%D0%BB.%20%D0%9A%D1%80%D1%8B%D0%BC%D1%81%D0%BA%D0%B8%D0%B9%20%D0%92%D0%B0%D0%BB%2C%202" target="_blank" rel="noopener">На карте 2ГИС →</a></div>
+ </div>
+</article><article class="card c-club" id="place-12">
+ <div class="photo"><span class="glyph">₽</span><span class="ph">место для фото</span><img src="img/12.jpg" alt="" loading="lazy"><span class="num">12</span></div>
+ <div class="body">
+  <span class="tag">Клубы и практики</span>
+  <h3>Пушкинская карта</h3>
+  <div class="addr"><span>Онлайн: приложение «Госуслуги Культура»</span></div>
+  <p class="desc">Государственная программа для молодёжи 14–22 лет: 5000 ₽ в год на билеты в музеи, театры, концерты и кино (до 2000 ₽ на кино).</p>
+  <p class="why"><strong>Для личности:</strong> Снимает финансовый барьер и даёт возможность попробовать разные виды культуры.</p>
+  <p class="stud"><strong>Для студента:</strong> Для граждан РФ 14–22 лет. С 2026 года карту выпускает ВТБ, оформить можно через Госуслуги. Остаток сгорает 31 декабря.</p>
+  <div class="links"><a href="https://www.culture.ru/pushkinskaya-karta" target="_blank" rel="noopener">Официальный сайт →</a></div>
+ </div>
+</article><article class="card c-club" id="place-13">
+ <div class="photo"><span class="glyph">ВУЗ</span><span class="ph">место для фото</span><img src="img/13.jpg" alt="" loading="lazy"><span class="num">13</span></div>
+ <div class="body">
+  <span class="tag">Клубы и практики</span>
+  <h3>Студенческие объединения нашего вуза</h3>
+  <div class="addr"><span>Адрес вуза — впишите</span></div>
+  <p class="desc">Студенческий совет, творческие коллективы, медиацентр, волонтёрский центр, спортивные и научные клубы.</p>
+  <p class="why"><strong>Для личности:</strong> Самый короткий путь от интереса к делу: здесь находят друзей, учатся работать в команде и брать ответственность.</p>
+  <p class="stud"><strong>Для студента:</strong> Участие бесплатное. Контакты объединений — на сайте вуза и в соцсетях студсовета.</p>
+  <div class="links"></div>
+ </div>
+</article>
+ </div>
+ <p class="note">Данные собраны из открытых источников (официальные сайты учреждений, 2ГИС, KudaGo, Афиша) и проверены 29 октября 2026 года. Условия посещения могут измениться, уточняйте их на официальном сайте места.</p>
+</section>
+</main>
+<footer><div class="wrap"><span>КультКарта · учебный проект по дисциплине «Культура личности и общества», группа ОБ26-30</span><span>Москва, 2026 · <a href="team.html#feedback">Оставить отзыв</a></span></div></footer>
+</body>
+</html>
