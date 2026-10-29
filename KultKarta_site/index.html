@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>КультКарта Москвы</title>
+<meta name="description" content="Культурный путеводитель по Москве: музеи, библиотеки, арт-пространства и клубы">
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%232A44D8'/%3E%3Ctext x='16' y='21' font-size='15' text-anchor='middle' fill='white' font-family='Arial' font-weight='700'%3EК%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Golos+Text:wght@400;500;600&family=PT+Mono&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress" aria-hidden="true"></div>
+<header class="top"><div class="wrap">
+<a class="logo" href="index.html"><span>К</span>КультКарта</a>
+<nav aria-label="Разделы сайта"><a href="index.html" aria-current="page">Главная</a><a href="catalog.html">Каталог мест</a><a href="afisha.html">Афиша</a><a href="lichnost.html">Как это влияет на личность</a><a href="team.html">Команда</a></nav>
+</div></header>
+<main class="wrap">
+<section class="hero">
+ <div class="hero-lines" aria-hidden="true"><svg viewBox="0 0 1400 560" preserveAspectRatio="none">
+  <path d="M-20 430 C 420 430, 640 430, 820 300 S 1100 80, 1420 60" stroke="var(--c-museum)" style="--len:1700"/>
+  <path d="M-20 460 C 440 460, 670 460, 860 330 S 1130 130, 1420 120" stroke="var(--c-lib)" style="--len:1700;animation-delay:.15s"/>
+  <path d="M-20 490 C 460 490, 700 490, 900 360 S 1160 180, 1420 180" stroke="var(--c-art)" style="--len:1700;animation-delay:.3s"/>
+  <path d="M-20 520 C 480 520, 730 520, 940 390 S 1190 230, 1420 240" stroke="var(--c-club)" style="--len:1700;animation-delay:.45s"/>
+ </svg></div>
+ <div class="hero-text">
+  <span class="live"><i></i>Афиша обновляется каждый день в 06:00</span>
+  <h1>Где расти <br>в&nbsp;<span class="hl">Москве<svg viewBox="0 0 300 30" preserveAspectRatio="none" aria-hidden="true"><path d="M4 22 C 80 6, 200 4, 296 16"/></svg></span></h1>
+  <p class="lead">«КультКарта» собирает в одном месте музеи, библиотеки, арт-пространства и клубы Москвы, где можно учиться, творить и находить единомышленников.</p>
+  <p>Мы сделали этот сайт для всех москвичей: студентов, школьников, работающих и тех, кто недавно переехал в город. Мы отбирали места, которые доступны каждому: бесплатно, по льготному билету или по Пушкинской карте. Номер на карточке совпадает с точкой на схеме. Условия посещения меняются, поэтому перед походом проверьте их на официальном сайте места.</p>
+  <div class="btns"><a class="btn primary" href="catalog.html">Открыть каталог <span class="arr">→</span></a><a class="btn ghost" href="afisha.html">Афиша на неделю</a></div>
+  <div class="legend"><a class="c-museum" href="catalog.html#cat-museum"><b>4</b>Музеи</a><a class="c-lib" href="catalog.html#cat-lib"><b>3</b>Библиотеки</a><a class="c-art" href="catalog.html#cat-art"><b>4</b>Арт-пространства</a><a class="c-club" href="catalog.html#cat-club"><b>2</b>Клубы и практики</a></div>
+ </div>
+ <div class="mapwrap">
+  <div class="badge b1"><b>13</b>мест на схеме</div>
+  <div class="badge b2"><b>06:00</b>обновление афиши</div>
+  <div class="badge b3"><b>11</b>бесплатно или по льготе</div>
+  <figure class="mapbox"><svg viewBox="0 0 440 400" role="img" aria-label="Схема центра Москвы с местами из каталога">
+<rect width="440" height="400" fill="var(--surface)"/>
+<circle class="map-ring" cx="220" cy="200" r="120" fill="none" stroke="var(--ring)" stroke-width="10" transform="rotate(-90 220 200)"/>
+<circle cx="220" cy="200" r="58" fill="none" stroke="var(--ring)" stroke-width="3" stroke-dasharray="6 6"/>
+<path class="map-river" d="M10 150 C 90 140, 120 250, 190 262 S 250 210, 300 250 S 360 360, 430 330" fill="none" stroke="var(--river)" stroke-width="16" stroke-linecap="round"/>
+<text x="402" y="318" font-family="PT Mono, monospace" font-size="11" fill="var(--muted)" text-anchor="end">р. Москва</text>
+<rect x="208" y="186" width="18" height="18" rx="3" fill="none" stroke="var(--muted)" stroke-width="1.5"/>
+<text x="232" y="182" font-family="PT Mono, monospace" font-size="10" fill="var(--muted)">Кремль</text>
+<text x="352" y="96" font-family="PT Mono, monospace" font-size="10" fill="var(--muted)">Садовое кольцо</text>
+<a class="pin" href="catalog.html#place-1"><title>1. Третьяковская галерея</title><g style="--d:1"><circle cx="240" cy="232" r="13" fill="var(--marker)" stroke="var(--c-museum)" stroke-width="3"/><text x="240" y="236" text-anchor="middle" font-family="Unbounded, sans-serif" font-weight="700" font-size="11" fill="#141B33">1</text></g></a>
+<a class="pin" href="catalog.html#place-2"><title>2. ГМИИ им. А. С. Пушкина</title><g style="--d:2"><circle cx="196" cy="214" r="13" fill="var(--marker)" stroke="var(--c-museum)" stroke-width="3"/><text x="196" y="218" text-anchor="middle" font-family="Unbounded, sans-serif" font-weight="700" font-size="11" fill="#141B33">2</text></g></a>
+<a class="pin" href="catalog.html#place-3"><title>3. Музей Москвы</title><g style="--d:3"><circle cx="150" cy="262" r="13" fill="var(--marker)" stroke="var(--c-museum)" stroke-width="3"/><text x="150" y="266" text-anchor="middle" font-family="Unbounded, sans-serif" font-weight="700" font-size="11" fill="#141B33">3</text></g></a>
+<a class="pin" href="catalog.html#place-4"><title>4. Музей «Гараж»</title><g style="--d:4"><circle cx="176" cy="322" r="13" fill="var(--marker)" stroke="var(--c-museum)" stroke-width="3"/><text x="176" y="326" text-anchor="middle" font-family="Unbounded, sans-serif" font-weight="700" font-size="11" fill="#141B33">4</text></g></a>
+<a class="pin" href="catalog.html#place-5"><title>5. Российская государственная библиотека</title><g style="--d:5"><circle cx="198" cy="192" r="13" fill="var(--marker)" stroke="var(--c-lib)" stroke-width="3"/><text x="198" y="196" text-anchor="middle" font-family="Unbounded, sans-serif" font-weight="700" font-size="11" fill="#141B33">5</text></g></a>
+<a class="pin" href="catalog.html#place-6"><title>6. Библиотека иностранной литературы</title><g style="--d:6"><circle cx="282" cy="200" r="13" fill="var(--marker)" stroke="var(--c-lib)" stroke-width="3"/><text x="282" y="204" text-anchor="middle" font-family="Unbounded, sans-serif" font-weight="700" font-size="11" fill="#141B33">6</text></g></a>
+<a class="pin" href="catalog.html#place-7"><title>7. Библиотека-читальня им. И. С. Тургенева</title><g style="--d:7"><circle cx="262" cy="156" r="13" fill="var(--marker)" stroke="var(--c-lib)" stroke-width="3"/><text x="262" y="160" text-anchor="middle" font-family="Unbounded, sans-serif" font-weight="700" font-size="11" fill="#141B33">7</text></g></a>
+<a class="pin" href="catalog.html#place-8"><title>8. Дом культуры «ГЭС-2»</title><g style="--d:8"><circle cx="214" cy="236" r="13" fill="var(--marker)" stroke="var(--c-art)" stroke-width="3"/><text x="214" y="240" text-anchor="middle" font-family="Unbounded, sans-serif" font-weight="700" font-size="11" fill="#141B33">8</text></g></a>
+<a class="pin" href="catalog.html#place-9"><title>9. Центр современного искусства «Винзавод»</title><g style="--d:9"><circle cx="344" cy="186" r="13" fill="var(--marker)" stroke="var(--c-art)" stroke-width="3"/><text x="344" y="190" text-anchor="middle" font-family="Unbounded, sans-serif" font-weight="700" font-size="11" fill="#141B33">9</text></g></a>
+<a class="pin" href="catalog.html#place-10"><title>10. Дизайн-завод «Флакон»</title><g style="--d:10"><circle cx="196" cy="52" r="13" fill="var(--marker)" stroke="var(--c-art)" stroke-width="3"/><text x="196" y="56" text-anchor="middle" font-family="Unbounded, sans-serif" font-weight="700" font-size="11" fill="#141B33">10</text></g></a>
+<a class="pin" href="catalog.html#place-11"><title>11. Парк искусств «Музеон»</title><g style="--d:11"><circle cx="198" cy="290" r="13" fill="var(--marker)" stroke="var(--c-art)" stroke-width="3"/><text x="198" y="294" text-anchor="middle" font-family="Unbounded, sans-serif" font-weight="700" font-size="11" fill="#141B33">11</text></g></a>
+<a class="pin" href="catalog.html#place-13"><title>13. Культурный центр ЗИЛ</title><g style="--d:13"><circle cx="300" cy="334" r="13" fill="var(--marker)" stroke="var(--c-club)" stroke-width="3"/><text x="300" y="338" text-anchor="middle" font-family="Unbounded, sans-serif" font-weight="700" font-size="11" fill="#141B33">13</text></g></a>
+<circle cx="19" cy="368" r="5" fill="var(--c-museum)"/><text x="28" y="372" font-family="Golos Text, sans-serif" font-size="11" fill="var(--ink)">Музеи</text>
+<circle cx="80.0" cy="368" r="5" fill="var(--c-lib)"/><text x="89.0" y="372" font-family="Golos Text, sans-serif" font-size="11" fill="var(--ink)">Библиотеки</text>
+<circle cx="172.0" cy="368" r="5" fill="var(--c-art)"/><text x="181.0" y="372" font-family="Golos Text, sans-serif" font-size="11" fill="var(--ink)">Арт-пространства</text>
+<circle cx="301.2" cy="368" r="5" fill="var(--c-club)"/><text x="310.2" y="372" font-family="Golos Text, sans-serif" font-size="11" fill="var(--ink)">Клубы и практики</text>
+</svg><figcaption><span>Схема условная, не в масштабе</span><span>Нажмите на станцию, чтобы открыть место</span></figcaption></figure>
+ </div>
+</section>
+<div class="marquee" aria-hidden="true"><div><span>музеи</span><span>библиотеки</span><span>лекции</span><span>выставки</span><span>мастерские</span><span>разговорные клубы</span><span>кино</span><span>концерты</span><span>книжные клубы</span><span>экскурсии</span><span>музеи</span><span>библиотеки</span><span>лекции</span><span>выставки</span><span>мастерские</span><span>разговорные клубы</span><span>кино</span><span>концерты</span><span>книжные клубы</span><span>экскурсии</span></div><div><span>Третьяковка</span><span>ГЭС-2</span><span>Винзавод</span><span>Ленинка</span><span>Музеон</span><span>Гараж</span><span>Флакон</span><span>Иностранка</span><span>ЗИЛ</span><span>Музей Москвы</span><span>Третьяковка</span><span>ГЭС-2</span><span>Винзавод</span><span>Ленинка</span><span>Музеон</span><span>Гараж</span><span>Флакон</span><span>Иностранка</span><span>ЗИЛ</span><span>Музей Москвы</span></div></div>
+<div class="stats stagger">
+ <div class="stat c-museum"><b class="count" style="--to:13"><span class="v">13</span></b><span>мест и практик в каталоге</span></div>
+ <div class="stat c-lib"><b class="count" style="--to:4"><span class="v">4</span></b><span>категории, как линии метро</span></div>
+ <div class="stat c-art"><b class="count" style="--to:11"><span class="v">11</span></b><span>с бесплатным входом или льготами</span></div>
+ <div class="stat c-club"><b class="count" style="--to:3"><span class="v">3</span></b><span>готовых маршрута выходного дня</span></div>
+</div>
+<section class="sec"><div class="sec-head rv"><div style="display:grid;gap:14px"><span class="eyebrow">Афиша · обновляется каждый день</span><h2>Скоро в городе</h2></div><a class="btn ghost" href="afisha.html">Вся афиша <span class="arr">→</span></a></div><div class="empty rv"><span class="clock" aria-hidden="true"></span><div><b>Афиша загружается каждое утро в 06:00</b><p class="note">Здесь появятся ближайшие выставки, лекции и концерты в местах из каталога.</p></div></div><p class="note">Афиша обновляется автоматически каждый день в 06:00.</p></section>
+<section class="sec">
+ <div class="rv" style="display:grid;gap:14px"><span class="eyebrow">Как пользоваться сайтом</span><h2>Четыре шага</h2></div>
+ <ol class="steps stagger">
+  <li><b>Выберите категорию</b><span>В каталоге есть фильтр: музеи, библиотеки, арт-пространства, клубы.</span></li>
+  <li><b>Изучите карточку</b><span>Адрес, метро, что там делать и чем это полезно для развития.</span></li>
+  <li><b>Проверьте условия</b><span>Бесплатные дни и льготы — по ссылке на официальный сайт места.</span></li>
+  <li><b>Сходите и расскажите</b><span>Оставьте отзыв о сайте, чтобы мы сделали его лучше.</span></li>
+ </ol>
+</section>
+<section class="sec">
+ <div class="sec-head rv"><div style="display:grid;gap:14px"><span class="eyebrow">Готовые маршруты</span><h2>Куда пойти на выходных</h2></div><p>Каждый маршрут — как ветка метро: станции идут в удобном порядке.</p></div>
+ <div class="routes stagger">
+  <div class="route c-museum"><span class="rtag"><i>1</i>≈ 5 часов · пешком</span><h3>Набережные и искусство</h3><ol>
+   <li><span>8</span><a href="catalog.html#place-8">ГЭС-2</a></li><li><span>1</span><a href="catalog.html#place-1">Третьяковская галерея</a></li><li><span>11</span><a href="catalog.html#place-11">Музеон</a></li><li><span>4</span><a href="catalog.html#place-4">Музей «Гараж»</a></li></ol>
+   <p>От Болотной набережной через Замоскворечье к Парку Горького.</p></div>
+  <div class="route c-lib"><span class="rtag"><i>2</i>≈ 4 часа · метро и пешком</span><h3>День с книгой</h3><ol>
+   <li><span>5</span><a href="catalog.html#place-5">Российская государственная библиотека</a></li><li><span>7</span><a href="catalog.html#place-7">Читальня им. Тургенева</a></li><li><span>6</span><a href="catalog.html#place-6">Библиотека иностранной литературы</a></li></ol>
+   <p>Утро в читальном зале, днём книжный клуб, вечером разговорный клуб на иностранном языке.</p></div>
+  <div class="route c-art"><span class="rtag"><i>3</i>≈ 4 часа · метро</span><h3>Современная культура</h3><ol>
+   <li><span>9</span><a href="catalog.html#place-9">Винзавод</a></li><li><span>10</span><a href="catalog.html#place-10">Флакон</a></li><li><span>3</span><a href="catalog.html#place-3">Музей Москвы</a></li></ol>
+   <p>Галереи молодых художников, дизайн-студии и история города.</p></div>
+ </div>
+</section>
+<section class="sec">
+ <div class="rv" style="display:grid;gap:14px"><span class="eyebrow">Категории</span><h2>С чего начать</h2></div>
+ <div class="cats stagger">
+  <a class="catlink c-museum" href="catalog.html#cat-museum"><em>04</em><b>Музеи</b><span>Собрания искусства и истории</span></a><a class="catlink c-lib" href="catalog.html#cat-lib"><em>03</em><b>Библиотеки</b><span>Книги, читальные залы, клубы</span></a><a class="catlink c-art" href="catalog.html#cat-art"><em>04</em><b>Арт-пространства</b><span>Выставки, мастерские, события</span></a><a class="catlink c-club" href="catalog.html#cat-club"><em>02</em><b>Клубы и практики</b><span>Кружки, лекции и городские программы</span></a>
+ </div>
+</section>
+<section class="sec"><div class="feedback rv-z"><span class="eyebrow">Начните сегодня</span><h2>Выберите место на выходные</h2><p>Тринадцать адресов, три маршрута и свежая афиша каждое утро.</p><div class="btns"><a class="btn primary" href="catalog.html">Открыть каталог <span class="arr">→</span></a></div></div></section>
+</main>
+<footer>
+ <div class="lines" aria-hidden="true"><i style="background:var(--c-museum)"></i><i style="background:var(--c-lib)"></i><i style="background:var(--c-art)"></i><i style="background:var(--c-club)"></i></div>
+ <div class="wrap">
+  <div class="wordmark" aria-hidden="true">КультКарта</div>
+  <div class="fgrid">
+   <div><h4>О проекте</h4><p>Культурный путеводитель по Москве. Учебный проект по дисциплине «Культура личности и общества», группа ОБ26-30.</p></div>
+   <div><h4>Разделы</h4><a href="index.html">Главная</a><a href="catalog.html">Каталог мест</a><a href="afisha.html">Афиша</a><a href="lichnost.html">Как это влияет на личность</a><a href="team.html">Команда</a></div>
+   <div><h4>Категории</h4><a href="catalog.html#cat-museum">Музеи</a><a href="catalog.html#cat-lib">Библиотеки</a><a href="catalog.html#cat-art">Арт-пространства</a><a href="catalog.html#cat-club">Клубы и практики</a></div>
+   <div><h4>Данные</h4><p>Сведения о местах проверены 29.10.2026.<br>Афиша обновляется каждый день в 06:00.</p><a href="team.html#feedback">Оставить отзыв →</a></div>
+  </div>
+  <div class="fbottom"><span>© 2026 · КультКарта</span><span>Источники: официальные сайты учреждений, 2ГИС, KudaGo</span></div>
+ </div>
+</footer>
+</body>
+</html>
